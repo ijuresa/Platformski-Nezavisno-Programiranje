@@ -1,1 +1,0 @@
-/home/jura611/projects/newLibrary/build/CMakeFiles/newlibrary.dir
