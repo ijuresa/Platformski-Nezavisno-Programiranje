@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/newlibrary.dir/main.cpp.o  -o newlibrary -rdynamic 
