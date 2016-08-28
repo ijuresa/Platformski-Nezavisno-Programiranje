@@ -2,6 +2,7 @@
 
 ## TODO list
 - [x] Basic template
+- [x] KDevelop build
 - [ ] Visual Studio Build
 - [ ] XCode build
 - [ ] CMake fix
