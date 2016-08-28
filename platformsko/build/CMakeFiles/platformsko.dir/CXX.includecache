@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lib.h
+string
+-
+vector
+-
+
+/home/jura611/projects/platformsko/main.cpp
+iostream
+-
+lib.h
+/home/jura611/projects/platformsko/lib.h
+

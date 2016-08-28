@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/platformsko.dir/main.cpp.o  -o platformsko -rdynamic include/libinclude.a 
