@@ -51,6 +51,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jura611/projects/platformsko/build/include/cmake_install.cmake")
+  include("/home/jura611/projects/platformsko/build/library_test/cmake_install.cmake")
 
 endif()
 

@@ -191,6 +191,19 @@ include/fast:
 	$(MAKE) -f include/CMakeFiles/include.dir/build.make include/CMakeFiles/include.dir/build
 .PHONY : include/fast
 
+#=============================================================================
+# Target rules for targets named libTest
+
+# Build rule for target.
+libTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libTest
+.PHONY : libTest
+
+# fast build rule for target.
+libTest/fast:
+	$(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/build
+.PHONY : libTest/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -233,6 +246,7 @@ help:
 	@echo "... install/strip"
 	@echo "... platformsko"
 	@echo "... include"
+	@echo "... libTest"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

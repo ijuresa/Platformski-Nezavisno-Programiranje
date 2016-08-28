@@ -1,0 +1,2 @@
+/usr/bin/ar cq liblibrary_test.a  CMakeFiles/library_test.dir/unitTest.cpp.o
+/usr/bin/ranlib liblibrary_test.a

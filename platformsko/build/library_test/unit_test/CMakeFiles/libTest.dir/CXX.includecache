@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jura611/projects/platformsko/library_test/unit_test/libtest.cpp
+libtest.h
+/home/jura611/projects/platformsko/library_test/unit_test/libtest.h
+
+/home/jura611/projects/platformsko/library_test/unit_test/libtest.h
+

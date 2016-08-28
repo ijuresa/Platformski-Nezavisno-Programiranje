@@ -1,3 +1,5 @@
+
+
 #include <iostream>
 #include "lib.h"
   using std::cerr;
@@ -5,8 +7,7 @@
   using std::endl;
 
 
-int main(int argc, char **argv) {
-    
+int main(int , char **) {
     lib list;
     
     list.addUser("Proba");

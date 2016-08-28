@@ -6,3 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 add_test(libraryTest "platformsko")
 subdirs(include)
+subdirs(library_test)
