@@ -8,8 +8,8 @@
 - [ ] CMake fix
 - [ ] User Test case
 - [ ] Makefile
-- [ ] Google Test 
-- [ ] Google Mock
+- [x] Google Test 
+- [x] Google Mock
 - [ ] Automatic test running
 - [ ] ABI compatibility
 - [ ] ...
