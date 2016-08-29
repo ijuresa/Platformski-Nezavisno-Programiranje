@@ -10,6 +10,7 @@
 - [ ] Makefile
 - [ ] Google Test 
 - [ ] Google Mock
+- [ ] Automatic test running
 - [ ] ABI compatibility
 - [ ] ...
 
