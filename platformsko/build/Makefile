@@ -192,17 +192,30 @@ include/fast:
 .PHONY : include/fast
 
 #=============================================================================
-# Target rules for targets named libTest
+# Target rules for targets named gtest
 
 # Build rule for target.
-libTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libTest
-.PHONY : libTest
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
 
 # fast build rule for target.
-libTest/fast:
-	$(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/build
-.PHONY : libTest/fast
+gtest/fast:
+	$(MAKE) -f library_test/CMakeFiles/gtest.dir/build.make library_test/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named unitTest
+
+# Build rule for target.
+unitTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unitTest
+.PHONY : unitTest
+
+# fast build rule for target.
+unitTest/fast:
+	$(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/build
+.PHONY : unitTest/fast
 
 main.o: main.cpp.o
 
@@ -246,7 +259,8 @@ help:
 	@echo "... install/strip"
 	@echo "... platformsko"
 	@echo "... include"
-	@echo "... libTest"
+	@echo "... gtest"
+	@echo "... unitTest"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

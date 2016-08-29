@@ -1,6 +1,6 @@
 /*
- * <one line to give the program's name and a brief idea of what it does.>
- * Copyright (C) 2016  <copyright holder> <email>
+ * < TEST >
+ * Copyright (C) 2016  <ivan.juresa> <ijuresa@riteh.hr>
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,13 +18,49 @@
  */
 
 #include "libtest.h"
+#include "lib.h"
+#include <iostream>
+  using std::cout;
+  
+#include <string.h>
+  using std::string;
 
-libTest::libTest()
-{
+#include <gmock/gmock.h>
+  using ::testing::Eq;
+#include <gtest/gtest.h>
+  using ::testing::Test;
+  
+namespace library_test {
+  namespace testing {
+    class libTest : public Test {
+    protected:
+      libTest() { }
+      ~libTest() { }
+      
+      virtual void SetUp() { }
+      virtual void TearDown() { }
+      
+      lib list;
+          
+      static const size_t userCount = 2;
+      static const string users[userCount];
+      
+    };
+    
+    const string libTest::users[userCount] = {"Ivan", "Juresa"};
+    
+     /*TEST_F(libTest, constructor_createsEmptyList) {
+        EXPECT_THAT(list.size(), Eq(size_t(0)));
+    }
+     
+     TEST_F(libTest, addTask_threeTimes_sizeIsThree) {
+        list.addUser(users[0]);
+        list.addUser(users[1]);
 
+        EXPECT_THAT(list.size(), Eq(userCount));
+    }
+  */
+    
+  }
 }
-
-libTest::~libTest()
-{
-
-}
+  

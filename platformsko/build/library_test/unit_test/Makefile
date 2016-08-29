@@ -67,6 +67,17 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -122,17 +133,6 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /home/jura611/projects/platformsko/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/platformsko/build/CMakeFiles /home/jura611/projects/platformsko/build/library_test/unit_test/CMakeFiles/progress.marks
@@ -166,19 +166,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-library_test/unit_test/CMakeFiles/libTest.dir/rule:
-	cd /home/jura611/projects/platformsko/build && $(MAKE) -f CMakeFiles/Makefile2 library_test/unit_test/CMakeFiles/libTest.dir/rule
-.PHONY : library_test/unit_test/CMakeFiles/libTest.dir/rule
+library_test/unit_test/CMakeFiles/unitTest.dir/rule:
+	cd /home/jura611/projects/platformsko/build && $(MAKE) -f CMakeFiles/Makefile2 library_test/unit_test/CMakeFiles/unitTest.dir/rule
+.PHONY : library_test/unit_test/CMakeFiles/unitTest.dir/rule
 
 # Convenience name for target.
-libTest: library_test/unit_test/CMakeFiles/libTest.dir/rule
+unitTest: library_test/unit_test/CMakeFiles/unitTest.dir/rule
 
-.PHONY : libTest
+.PHONY : unitTest
 
 # fast build rule for target.
-libTest/fast:
-	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/build
-.PHONY : libTest/fast
+unitTest/fast:
+	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/build
+.PHONY : unitTest/fast
 
 libtest.o: libtest.cpp.o
 
@@ -186,7 +186,7 @@ libtest.o: libtest.cpp.o
 
 # target to build an object file
 libtest.cpp.o:
-	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/libtest.cpp.o
+	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/libtest.cpp.o
 .PHONY : libtest.cpp.o
 
 libtest.i: libtest.cpp.i
@@ -195,7 +195,7 @@ libtest.i: libtest.cpp.i
 
 # target to preprocess a source file
 libtest.cpp.i:
-	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/libtest.cpp.i
+	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/libtest.cpp.i
 .PHONY : libtest.cpp.i
 
 libtest.s: libtest.cpp.s
@@ -204,8 +204,35 @@ libtest.s: libtest.cpp.s
 
 # target to generate assembly for a file
 libtest.cpp.s:
-	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/libtest.cpp.s
+	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/libtest.cpp.s
 .PHONY : libtest.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/jura611/projects/platformsko/build && $(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -214,16 +241,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... test"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... edit_cache"
-	@echo "... libTest"
+	@echo "... unitTest"
 	@echo "... libtest.o"
 	@echo "... libtest.i"
 	@echo "... libtest.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

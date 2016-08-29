@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/include.dir/lib.cpp.o"
   "libinclude.pdb"
-  "libinclude.a"
+  "libinclude.so"
 )
 
 # Per-language clean rules from dependency scanning.

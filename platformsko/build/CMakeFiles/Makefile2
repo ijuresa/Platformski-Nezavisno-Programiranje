@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/jura611/projects/platformsko/build
 CMakeFiles/platformsko.dir/all: include/CMakeFiles/include.dir/all
 	$(MAKE) -f CMakeFiles/platformsko.dir/build.make CMakeFiles/platformsko.dir/depend
 	$(MAKE) -f CMakeFiles/platformsko.dir/build.make CMakeFiles/platformsko.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/platformsko/build/CMakeFiles --progress-num=5,6 "Built target platformsko"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/platformsko/build/CMakeFiles --progress-num=11,12 "Built target platformsko"
 .PHONY : CMakeFiles/platformsko.dir/all
 
 # Include target in all.
@@ -121,7 +121,7 @@ include/preinstall:
 include/CMakeFiles/include.dir/all:
 	$(MAKE) -f include/CMakeFiles/include.dir/build.make include/CMakeFiles/include.dir/depend
 	$(MAKE) -f include/CMakeFiles/include.dir/build.make include/CMakeFiles/include.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/platformsko/build/CMakeFiles --progress-num=1,2 "Built target include"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/platformsko/build/CMakeFiles --progress-num=9,10 "Built target include"
 .PHONY : include/CMakeFiles/include.dir/all
 
 # Include target in all.
@@ -155,11 +155,13 @@ clean: include/CMakeFiles/include.dir/clean
 # Directory level rules for directory library_test
 
 # Convenience name for "all" pass in the directory.
+library_test/all: library_test/CMakeFiles/gtest.dir/all
 library_test/all: library_test/unit_test/all
 
 .PHONY : library_test/all
 
 # Convenience name for "clean" pass in the directory.
+library_test/clean: library_test/CMakeFiles/gtest.dir/clean
 library_test/clean: library_test/unit_test/clean
 
 .PHONY : library_test/clean
@@ -170,15 +172,52 @@ library_test/preinstall: library_test/unit_test/preinstall
 .PHONY : library_test/preinstall
 
 #=============================================================================
+# Target rules for target library_test/CMakeFiles/gtest.dir
+
+# All Build rule for target.
+library_test/CMakeFiles/gtest.dir/all:
+	$(MAKE) -f library_test/CMakeFiles/gtest.dir/build.make library_test/CMakeFiles/gtest.dir/depend
+	$(MAKE) -f library_test/CMakeFiles/gtest.dir/build.make library_test/CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/platformsko/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target gtest"
+.PHONY : library_test/CMakeFiles/gtest.dir/all
+
+# Include target in all.
+all: library_test/CMakeFiles/gtest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+library_test/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/platformsko/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 library_test/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/platformsko/build/CMakeFiles 0
+.PHONY : library_test/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: library_test/CMakeFiles/gtest.dir/rule
+
+.PHONY : gtest
+
+# clean rule for target.
+library_test/CMakeFiles/gtest.dir/clean:
+	$(MAKE) -f library_test/CMakeFiles/gtest.dir/build.make library_test/CMakeFiles/gtest.dir/clean
+.PHONY : library_test/CMakeFiles/gtest.dir/clean
+
+# clean rule for target.
+clean: library_test/CMakeFiles/gtest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory library_test/unit_test
 
 # Convenience name for "all" pass in the directory.
-library_test/unit_test/all: library_test/unit_test/CMakeFiles/libTest.dir/all
+library_test/unit_test/all: library_test/unit_test/CMakeFiles/unitTest.dir/all
 
 .PHONY : library_test/unit_test/all
 
 # Convenience name for "clean" pass in the directory.
-library_test/unit_test/clean: library_test/unit_test/CMakeFiles/libTest.dir/clean
+library_test/unit_test/clean: library_test/unit_test/CMakeFiles/unitTest.dir/clean
 
 .PHONY : library_test/unit_test/clean
 
@@ -188,39 +227,39 @@ library_test/unit_test/preinstall:
 .PHONY : library_test/unit_test/preinstall
 
 #=============================================================================
-# Target rules for target library_test/unit_test/CMakeFiles/libTest.dir
+# Target rules for target library_test/unit_test/CMakeFiles/unitTest.dir
 
 # All Build rule for target.
-library_test/unit_test/CMakeFiles/libTest.dir/all:
-	$(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/depend
-	$(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/platformsko/build/CMakeFiles --progress-num=3,4 "Built target libTest"
-.PHONY : library_test/unit_test/CMakeFiles/libTest.dir/all
+library_test/unit_test/CMakeFiles/unitTest.dir/all: library_test/CMakeFiles/gtest.dir/all
+	$(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/depend
+	$(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/platformsko/build/CMakeFiles --progress-num=13,14,15 "Built target unitTest"
+.PHONY : library_test/unit_test/CMakeFiles/unitTest.dir/all
 
 # Include target in all.
-all: library_test/unit_test/CMakeFiles/libTest.dir/all
+all: library_test/unit_test/CMakeFiles/unitTest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-library_test/unit_test/CMakeFiles/libTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/platformsko/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 library_test/unit_test/CMakeFiles/libTest.dir/all
+library_test/unit_test/CMakeFiles/unitTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/platformsko/build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 library_test/unit_test/CMakeFiles/unitTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/platformsko/build/CMakeFiles 0
-.PHONY : library_test/unit_test/CMakeFiles/libTest.dir/rule
+.PHONY : library_test/unit_test/CMakeFiles/unitTest.dir/rule
 
 # Convenience name for target.
-libTest: library_test/unit_test/CMakeFiles/libTest.dir/rule
+unitTest: library_test/unit_test/CMakeFiles/unitTest.dir/rule
 
-.PHONY : libTest
-
-# clean rule for target.
-library_test/unit_test/CMakeFiles/libTest.dir/clean:
-	$(MAKE) -f library_test/unit_test/CMakeFiles/libTest.dir/build.make library_test/unit_test/CMakeFiles/libTest.dir/clean
-.PHONY : library_test/unit_test/CMakeFiles/libTest.dir/clean
+.PHONY : unitTest
 
 # clean rule for target.
-clean: library_test/unit_test/CMakeFiles/libTest.dir/clean
+library_test/unit_test/CMakeFiles/unitTest.dir/clean:
+	$(MAKE) -f library_test/unit_test/CMakeFiles/unitTest.dir/build.make library_test/unit_test/CMakeFiles/unitTest.dir/clean
+.PHONY : library_test/unit_test/CMakeFiles/unitTest.dir/clean
+
+# clean rule for target.
+clean: library_test/unit_test/CMakeFiles/unitTest.dir/clean
 
 .PHONY : clean
 

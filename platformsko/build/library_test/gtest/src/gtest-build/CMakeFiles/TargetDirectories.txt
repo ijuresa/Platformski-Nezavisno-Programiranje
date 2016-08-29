@@ -1,0 +1,4 @@
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-build/googlemock/CMakeFiles/gmock_main.dir
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-build/googlemock/CMakeFiles/gmock.dir
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest_main.dir
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest.dir

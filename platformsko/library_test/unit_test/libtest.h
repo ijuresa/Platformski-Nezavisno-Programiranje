@@ -1,6 +1,6 @@
 /*
- * <one line to give the program's name and a brief idea of what it does.>
- * Copyright (C) 2016  <copyright holder> <email>
+ * < TEST >
+ * Copyright (C) 2016  <ivan.juresa> <ijuresa@riteh.hr>
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,8 +20,7 @@
 #ifndef LIBTEST_H
 #define LIBTEST_H
 
-class libTest
-{
+class libTest {
 public:
 libTest();
 ~libTest();

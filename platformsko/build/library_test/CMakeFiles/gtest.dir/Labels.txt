@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/home/jura611/projects/platformsko/build/library_test/CMakeFiles/gtest
+/home/jura611/projects/platformsko/build/library_test/CMakeFiles/gtest.rule
+/home/jura611/projects/platformsko/build/library_test/CMakeFiles/gtest-complete.rule
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-stamp/gtest-install.rule
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-stamp/gtest-mkdir.rule
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-stamp/gtest-download.rule
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-stamp/gtest-update.rule
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-stamp/gtest-patch.rule
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-stamp/gtest-configure.rule
+/home/jura611/projects/platformsko/build/library_test/gtest/src/gtest-stamp/gtest-build.rule

@@ -1,3 +1,4 @@
 /home/jura611/projects/platformsko/build/CMakeFiles/platformsko.dir
-/home/jura611/projects/platformsko/build/library_test/unit_test/CMakeFiles/libTest.dir
+/home/jura611/projects/platformsko/build/library_test/unit_test/CMakeFiles/unitTest.dir
+/home/jura611/projects/platformsko/build/library_test/CMakeFiles/gtest.dir
 /home/jura611/projects/platformsko/build/include/CMakeFiles/include.dir
