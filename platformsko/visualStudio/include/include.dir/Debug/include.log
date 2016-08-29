@@ -1,0 +1,17 @@
+﻿Build started 29/08/2016 20:50:36.
+     1>Project "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\include\include.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/include/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\include\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\include" /I"C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test" /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D include_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"include.dir\Debug\\" /Fd"include.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  -std=c++11 "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\include\lib.cpp"
+     1>cl : Command line warning D9002: ignoring unknown option '-std=c++11'
+         lib.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\include\Debug\include.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/include/Debug/include.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/include/Debug/include.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /DLL include.dir\Debug\lib.obj
+         include.vcxproj -> C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\include\Debug\include.dll
+     1>Done Building Project "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\include\include.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.13

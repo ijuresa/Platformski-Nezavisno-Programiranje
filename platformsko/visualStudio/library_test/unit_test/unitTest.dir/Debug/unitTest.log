@@ -1,0 +1,11 @@
+﻿Build started 29/08/2016 20:52:02.
+     1>Project "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\unit_test\unitTest.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\unit_test\Debug\unitTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\gtest\src\gtest-build\googlemock\gtest\libgtest.a" "..\gtest\src\gtest-build\googlemock\libgmock.a" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/unit_test/Debug/unitTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/unit_test/Debug/unitTest.lib" /MACHINE:X86 /SAFESEH  /machine:X86 unitTest.dir\Debug\libtest.obj
+         unitTest.dir\Debug\main.obj
+     1>LINK : fatal error LNK1104: cannot open file '..\gtest\src\gtest-build\googlemock\gtest\libgtest.a'
+     1>Done Building Project "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\unit_test\unitTest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.16

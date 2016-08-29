@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{ED6BD975-438C-3F7F-A0B9-734D51E75F55}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>gtest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\include;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest\googletest\include;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\include;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest\googletest\include;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\include;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest\googletest\include;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\include;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest\googletest\include;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko" "-BC:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio" --check-stamp-file "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\tmp\gtest-cfgcmd.txt.in;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko" "-BC:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio" --check-stamp-file "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\tmp\gtest-cfgcmd.txt.in;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko" "-BC:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio" --check-stamp-file "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\tmp\gtest-cfgcmd.txt.in;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko" "-BC:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio" --check-stamp-file "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\tmp\gtest-cfgcmd.txt.in;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\library_test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\e3f44ff3c9eca3885b3b73ea39b31a1d\gtest-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\e3f44ff3c9eca3885b3b73ea39b31a1d\gtest-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (download, verify and extract) for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/download-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/verify-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/extract-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-download.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\gtest-urlinfo.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (download, verify and extract) for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/download-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/verify-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/extract-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-download.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\gtest-urlinfo.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing download step (download, verify and extract) for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/download-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/verify-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/extract-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-download.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\gtest-urlinfo.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (download, verify and extract) for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/download-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/verify-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/extract-gtest.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-download.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\gtest-urlinfo.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\e3f44ff3c9eca3885b3b73ea39b31a1d\gtest-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-update.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-update.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-update.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-update.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\e3f44ff3c9eca3885b3b73ea39b31a1d\gtest-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-patch.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-patch.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-patch.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-patch.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\e3f44ff3c9eca3885b3b73ea39b31a1d\gtest-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing configure step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-GVisual Studio 12 2013" "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-configure.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\tmp\gtest-cfgcmd.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing configure step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-GVisual Studio 12 2013" "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-configure.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\tmp\gtest-cfgcmd.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing configure step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-GVisual Studio 12 2013" "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-configure.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\tmp\gtest-cfgcmd.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing configure step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-GVisual Studio 12 2013" "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-configure.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\tmp\gtest-cfgcmd.txt;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\e3f44ff3c9eca3885b3b73ea39b31a1d\gtest-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing build step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-build.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing build step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-build.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing build step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-build.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing build step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-build.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\e3f44ff3c9eca3885b3b73ea39b31a1d\gtest-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-install.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-install.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-install.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-install.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\1390bf135b44b531f78fb30723570d7d\gtest-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/$(Configuration)/gtest-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/1390bf135b44b531f78fb30723570d7d/gtest-complete.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\$(Configuration)\gtest-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/$(Configuration)/gtest-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/1390bf135b44b531f78fb30723570d7d/gtest-complete.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\$(Configuration)\gtest-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/$(Configuration)/gtest-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/1390bf135b44b531f78fb30723570d7d/gtest-complete.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\$(Configuration)\gtest-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'gtest'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/$(Configuration)/gtest-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-stamp/$(Configuration)/gtest-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/1390bf135b44b531f78fb30723570d7d/gtest-complete.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-mkdir;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-download;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-update;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-patch;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-configure;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-build;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\gtest\src\gtest-stamp\$(Configuration)\gtest-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\$(Configuration)\gtest-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\CMakeFiles\0be9ae18d4f0d6ceafc051d951ef65b1\gtest.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/0be9ae18d4f0d6ceafc051d951ef65b1/gtest.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\$(Configuration)\gtest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\gtest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/0be9ae18d4f0d6ceafc051d951ef65b1/gtest.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\$(Configuration)\gtest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\gtest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/0be9ae18d4f0d6ceafc051d951ef65b1/gtest.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\$(Configuration)\gtest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\gtest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/0be9ae18d4f0d6ceafc051d951ef65b1/gtest.rule;C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\$(Configuration)\gtest-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\gtest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\library_test\CMakeFiles\gtest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/ZERO_CHECK.vcxproj">
+      <Project>AFBB25D4-2ABE-3A20-B977-CC1E07DFDB49</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

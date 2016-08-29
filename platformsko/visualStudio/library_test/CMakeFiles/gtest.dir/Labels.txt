@@ -1,0 +1,14 @@
+# Target labels
+ gtest
+# Source files and their labels
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/gtest
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/0be9ae18d4f0d6ceafc051d951ef65b1/gtest.rule
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/1390bf135b44b531f78fb30723570d7d/gtest-complete.rule
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-install.rule
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-mkdir.rule
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-download.rule
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-update.rule
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-patch.rule
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-configure.rule
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-build.rule

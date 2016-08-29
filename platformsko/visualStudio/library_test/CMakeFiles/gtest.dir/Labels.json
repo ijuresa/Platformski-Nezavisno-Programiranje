@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/gtest"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/library_test/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/0be9ae18d4f0d6ceafc051d951ef65b1/gtest.rule"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/1390bf135b44b531f78fb30723570d7d/gtest-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-install.rule"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-download.rule"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-update.rule"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/e3f44ff3c9eca3885b3b73ea39b31a1d/gtest-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "gtest" ],
+		"name" : "gtest"
+	}
+}

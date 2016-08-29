@@ -1,0 +1,1 @@
+cmd='C:/Program Files (x86)/CMake/bin/cmake.exe;-GVisual Studio 12 2013;C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest'

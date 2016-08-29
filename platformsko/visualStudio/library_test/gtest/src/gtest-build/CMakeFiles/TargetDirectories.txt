@@ -1,0 +1,14 @@
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/CMakeFiles/RUN_TESTS.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/CMakeFiles/INSTALL.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/CMakeFiles/RUN_TESTS.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/CMakeFiles/INSTALL.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/CMakeFiles/gmock.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest_main.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/RUN_TESTS.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/INSTALL.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/ALL_BUILD.dir

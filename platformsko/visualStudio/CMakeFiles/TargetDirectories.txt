@@ -1,0 +1,14 @@
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/platformsko.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/RUN_TESTS.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/INSTALL.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/ALL_BUILD.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/include/CMakeFiles/include.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/include/CMakeFiles/RUN_TESTS.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/include/CMakeFiles/INSTALL.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/gtest.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/RUN_TESTS.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/INSTALL.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/unit_test/CMakeFiles/unitTest.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/unit_test/CMakeFiles/RUN_TESTS.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/unit_test/CMakeFiles/INSTALL.dir

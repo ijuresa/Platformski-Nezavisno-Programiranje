@@ -1,0 +1,13 @@
+﻿Build started 29/08/2016 20:50:35.
+     1>Project "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/include/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/platformsko/visualStudio/library_test/unit_test/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\platformsko\visualStudio\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.26
