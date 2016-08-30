@@ -1,0 +1,10 @@
+﻿Build started 30/08/2016 17:39:17.
+     1>Project "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\newLibrary\buildVisual\ALL_BUILD.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/newLibrary/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\newLibrary\buildVisual\CMakeFiles\generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\ivanj\Documents\GitHub\Platformski Nezavisno Programiranje\newLibrary\buildVisual\ALL_BUILD.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16

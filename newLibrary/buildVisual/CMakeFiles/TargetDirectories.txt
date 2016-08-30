@@ -1,0 +1,6 @@
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/newLibrary/buildVisual/CMakeFiles/newlibrary.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/newLibrary/buildVisual/CMakeFiles/INSTALL.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/newLibrary/buildVisual/CMakeFiles/ALL_BUILD.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/newLibrary/buildVisual/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/newLibrary/buildVisual/actualLibrary/CMakeFiles/actualLibrary.dir
+C:/Users/ivanj/Documents/GitHub/Platformski Nezavisno Programiranje/newLibrary/buildVisual/actualLibrary/CMakeFiles/INSTALL.dir

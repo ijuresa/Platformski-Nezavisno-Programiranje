@@ -20,8 +20,13 @@
 #include "actuallibrary.h"
 
 namespace actualLibrary {
-double Functions::Add(double a, double b) {
-  return a + b;
+	double Functions::Add(double a, double b) {
+		return a + b;
+	}
+	int Functions::RandomFunction(void) {
+		return 40;
+	}
 }
-
+int CountSomething(void) {
+	return 20;
 }
