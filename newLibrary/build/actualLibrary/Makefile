@@ -56,6 +56,17 @@ CMAKE_BINARY_DIR = /home/jura611/projects/newLibrary/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -111,27 +122,16 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/newLibrary/build/CMakeFiles /home/jura611/projects/newLibrary/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/jura611/projects/newLibrary/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/newLibrary/build/CMakeFiles /home/jura611/projects/newLibrary/build/actualLibrary/CMakeFiles/progress.marks
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f CMakeFiles/Makefile2 actualLibrary/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/newLibrary/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f CMakeFiles/Makefile2 actualLibrary/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,71 +141,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f CMakeFiles/Makefile2 actualLibrary/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f CMakeFiles/Makefile2 actualLibrary/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jura611/projects/newLibrary/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named newlibrary
+# Convenience name for target.
+actualLibrary/CMakeFiles/actualLibrary.dir/rule:
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f CMakeFiles/Makefile2 actualLibrary/CMakeFiles/actualLibrary.dir/rule
+.PHONY : actualLibrary/CMakeFiles/actualLibrary.dir/rule
 
-# Build rule for target.
-newlibrary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 newlibrary
-.PHONY : newlibrary
+# Convenience name for target.
+actualLibrary: actualLibrary/CMakeFiles/actualLibrary.dir/rule
 
-# fast build rule for target.
-newlibrary/fast:
-	$(MAKE) -f CMakeFiles/newlibrary.dir/build.make CMakeFiles/newlibrary.dir/build
-.PHONY : newlibrary/fast
-
-#=============================================================================
-# Target rules for targets named actualLibrary
-
-# Build rule for target.
-actualLibrary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actualLibrary
 .PHONY : actualLibrary
 
 # fast build rule for target.
 actualLibrary/fast:
-	$(MAKE) -f actualLibrary/CMakeFiles/actualLibrary.dir/build.make actualLibrary/CMakeFiles/actualLibrary.dir/build
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f actualLibrary/CMakeFiles/actualLibrary.dir/build.make actualLibrary/CMakeFiles/actualLibrary.dir/build
 .PHONY : actualLibrary/fast
 
-main.o: main.cpp.o
+actuallibrary.o: actuallibrary.cpp.o
 
-.PHONY : main.o
+.PHONY : actuallibrary.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/newlibrary.dir/build.make CMakeFiles/newlibrary.dir/main.cpp.o
-.PHONY : main.cpp.o
+actuallibrary.cpp.o:
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f actualLibrary/CMakeFiles/actualLibrary.dir/build.make actualLibrary/CMakeFiles/actualLibrary.dir/actuallibrary.cpp.o
+.PHONY : actuallibrary.cpp.o
 
-main.i: main.cpp.i
+actuallibrary.i: actuallibrary.cpp.i
 
-.PHONY : main.i
+.PHONY : actuallibrary.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/newlibrary.dir/build.make CMakeFiles/newlibrary.dir/main.cpp.i
-.PHONY : main.cpp.i
+actuallibrary.cpp.i:
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f actualLibrary/CMakeFiles/actualLibrary.dir/build.make actualLibrary/CMakeFiles/actualLibrary.dir/actuallibrary.cpp.i
+.PHONY : actuallibrary.cpp.i
 
-main.s: main.cpp.s
+actuallibrary.s: actuallibrary.cpp.s
 
-.PHONY : main.s
+.PHONY : actuallibrary.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/newlibrary.dir/build.make CMakeFiles/newlibrary.dir/main.cpp.s
-.PHONY : main.cpp.s
+actuallibrary.cpp.s:
+	cd /home/jura611/projects/newLibrary/build && $(MAKE) -f actualLibrary/CMakeFiles/actualLibrary.dir/build.make actualLibrary/CMakeFiles/actualLibrary.dir/actuallibrary.cpp.s
+.PHONY : actuallibrary.cpp.s
 
 # Help Target
 help:
@@ -213,17 +202,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... edit_cache"
-	@echo "... newlibrary"
 	@echo "... actualLibrary"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... actuallibrary.o"
+	@echo "... actuallibrary.i"
+	@echo "... actuallibrary.s"
 .PHONY : help
 
 
@@ -235,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jura611/projects/newLibrary/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

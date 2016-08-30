@@ -1,0 +1,2 @@
+/usr/bin/ar cq libactualLibrary.a  CMakeFiles/actualLibrary.dir/actuallibrary.cpp.o
+/usr/bin/ranlib libactualLibrary.a

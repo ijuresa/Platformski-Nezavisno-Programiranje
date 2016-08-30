@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/jura611/projects/newLibr
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_81aed/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_81aed.dir/build.make CMakeFiles/cmTC_81aed.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_0383e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0383e.dir/build.make CMakeFiles/cmTC_0383e.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_81aed.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_81aed.dir/testCCompiler.c.o   -c /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_81aed
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81aed.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_81aed.dir/testCCompiler.c.o  -o cmTC_81aed -rdynamic 
+Building C object CMakeFiles/cmTC_0383e.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0383e.dir/testCCompiler.c.o   -c /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0383e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0383e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0383e.dir/testCCompiler.c.o  -o cmTC_0383e -rdynamic 
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c63f6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c63f6.dir/build.make CMakeFiles/cmTC_c63f6.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_1b5ea/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1b5ea.dir/build.make CMakeFiles/cmTC_1b5ea.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_c63f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c63f6.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o  -o cmTC_c63f6 -rdynamic  
+Building C object CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_1b5ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b5ea.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o  -o cmTC_1b5ea -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 4.8.5 (SUSE Linux) 
 COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c63f6' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c63f6 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b5ea' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1b5ea /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_c63f6/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_c63f6.dir/build.make CMakeFiles/cmTC_c63f6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_1b5ea/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_1b5ea.dir/build.make CMakeFiles/cmTC_1b5ea.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_c63f6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c63f6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o  -o cmTC_c63f6 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_1b5ea]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b5ea.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o  -o cmTC_1b5ea -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.5 (SUSE Linux) ]
   ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c63f6' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c63f6 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b5ea' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1b5ea /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -96,7 +96,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c63f6] ==> ignore
+    arg [cmTC_1b5ea] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o] ==> ignore
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib]
     arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..]
-    arg [CMakeFiles/cmTC_c63f6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_1b5ea.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -138,14 +138,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4bd3c/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4bd3c.dir/build.make CMakeFiles/cmTC_4bd3c.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_6eae4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6eae4.dir/build.make CMakeFiles/cmTC_6eae4.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4bd3c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4bd3c.dir/feature_tests.c.o   -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4bd3c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bd3c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4bd3c.dir/feature_tests.c.o  -o cmTC_4bd3c -rdynamic 
+Building C object CMakeFiles/cmTC_6eae4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_6eae4.dir/feature_tests.c.o   -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6eae4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eae4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6eae4.dir/feature_tests.c.o  -o cmTC_6eae4 -rdynamic 
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
@@ -158,14 +158,14 @@ gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_be6ec/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_be6ec.dir/build.make CMakeFiles/cmTC_be6ec.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_0276d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0276d.dir/build.make CMakeFiles/cmTC_0276d.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_be6ec.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_be6ec.dir/feature_tests.c.o   -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_be6ec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be6ec.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_be6ec.dir/feature_tests.c.o  -o cmTC_be6ec -rdynamic 
+Building C object CMakeFiles/cmTC_0276d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0276d.dir/feature_tests.c.o   -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0276d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0276d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0276d.dir/feature_tests.c.o  -o cmTC_0276d -rdynamic 
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +178,14 @@ gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_20752/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_20752.dir/build.make CMakeFiles/cmTC_20752.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_25fbc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_25fbc.dir/build.make CMakeFiles/cmTC_25fbc.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_20752.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_20752.dir/feature_tests.c.o   -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_20752
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20752.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_20752.dir/feature_tests.c.o  -o cmTC_20752 -rdynamic 
+Building C object CMakeFiles/cmTC_25fbc.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_25fbc.dir/feature_tests.c.o   -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_25fbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25fbc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_25fbc.dir/feature_tests.c.o  -o cmTC_25fbc -rdynamic 
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
@@ -196,28 +196,28 @@ gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_75294/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_75294.dir/build.make CMakeFiles/cmTC_75294.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_ef0ad/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ef0ad.dir/build.make CMakeFiles/cmTC_ef0ad.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_75294.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_75294.dir/testCXXCompiler.cxx.o -c /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_75294
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75294.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_75294.dir/testCXXCompiler.cxx.o  -o cmTC_75294 -rdynamic 
+Building CXX object CMakeFiles/cmTC_ef0ad.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ef0ad.dir/testCXXCompiler.cxx.o -c /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ef0ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef0ad.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ef0ad.dir/testCXXCompiler.cxx.o  -o cmTC_ef0ad -rdynamic 
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_aa610/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_aa610.dir/build.make CMakeFiles/cmTC_aa610.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_03d0c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_03d0c.dir/build.make CMakeFiles/cmTC_03d0c.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_aa610
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa610.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aa610 -rdynamic  
+Building CXX object CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_03d0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03d0c.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_03d0c -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper
@@ -227,8 +227,8 @@ Thread model: posix
 gcc version 4.8.5 (SUSE Linux) 
 COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa610' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aa610 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03d0c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_03d0c /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
@@ -236,14 +236,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_aa610/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_aa610.dir/build.make CMakeFiles/cmTC_aa610.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_03d0c/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_03d0c.dir/build.make CMakeFiles/cmTC_03d0c.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_aa610]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa610.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aa610 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_03d0c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03d0c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_03d0c -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper]
@@ -253,8 +253,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 (SUSE Linux) ]
   ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa610' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aa610 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03d0c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_03d0c /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -264,7 +264,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_aa610] ==> ignore
+    arg [cmTC_03d0c] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o] ==> ignore
@@ -274,7 +274,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib]
     arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..]
-    arg [CMakeFiles/cmTC_aa610.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_03d0c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -304,14 +304,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e79ff/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e79ff.dir/build.make CMakeFiles/cmTC_e79ff.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_1bf8d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1bf8d.dir/build.make CMakeFiles/cmTC_1bf8d.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e79ff.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_e79ff.dir/feature_tests.cxx.o -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e79ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e79ff.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_e79ff.dir/feature_tests.cxx.o  -o cmTC_e79ff -rdynamic 
+Building CXX object CMakeFiles/cmTC_1bf8d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_1bf8d.dir/feature_tests.cxx.o -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1bf8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bf8d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1bf8d.dir/feature_tests.cxx.o  -o cmTC_1bf8d -rdynamic 
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
@@ -377,14 +377,14 @@ gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_53b76/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_53b76.dir/build.make CMakeFiles/cmTC_53b76.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_1729c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1729c.dir/build.make CMakeFiles/cmTC_1729c.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_53b76.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_53b76.dir/feature_tests.cxx.o -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_53b76
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b76.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_53b76.dir/feature_tests.cxx.o  -o cmTC_53b76 -rdynamic 
+Building CXX object CMakeFiles/cmTC_1729c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_1729c.dir/feature_tests.cxx.o -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1729c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1729c.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1729c.dir/feature_tests.cxx.o  -o cmTC_1729c -rdynamic 
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 
@@ -450,14 +450,14 @@ gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_32823/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_32823.dir/build.make CMakeFiles/cmTC_32823.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_22279/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_22279.dir/build.make CMakeFiles/cmTC_22279.dir/build
 gmake[1]: Entering directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_32823.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_32823.dir/feature_tests.cxx.o -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_32823
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32823.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_32823.dir/feature_tests.cxx.o  -o cmTC_32823 -rdynamic 
+Building CXX object CMakeFiles/cmTC_22279.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_22279.dir/feature_tests.cxx.o -c /home/jura611/projects/newLibrary/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_22279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22279.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_22279.dir/feature_tests.cxx.o  -o cmTC_22279 -rdynamic 
 gmake[1]: Leaving directory '/home/jura611/projects/newLibrary/build/CMakeFiles/CMakeTmp'
 
 

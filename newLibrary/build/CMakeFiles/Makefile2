@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/jura611/projects/newLibrary/build
 CMakeFiles/newlibrary.dir/all:
 	$(MAKE) -f CMakeFiles/newlibrary.dir/build.make CMakeFiles/newlibrary.dir/depend
 	$(MAKE) -f CMakeFiles/newlibrary.dir/build.make CMakeFiles/newlibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/newLibrary/build/CMakeFiles --progress-num=1,2 "Built target newlibrary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/newLibrary/build/CMakeFiles --progress-num=3,4 "Built target newlibrary"
 .PHONY : CMakeFiles/newlibrary.dir/all
 
 # Include target in all.
@@ -93,6 +93,61 @@ CMakeFiles/newlibrary.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/newlibrary.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory actualLibrary
+
+# Convenience name for "all" pass in the directory.
+actualLibrary/all: actualLibrary/CMakeFiles/actualLibrary.dir/all
+
+.PHONY : actualLibrary/all
+
+# Convenience name for "clean" pass in the directory.
+actualLibrary/clean: actualLibrary/CMakeFiles/actualLibrary.dir/clean
+
+.PHONY : actualLibrary/clean
+
+# Convenience name for "preinstall" pass in the directory.
+actualLibrary/preinstall:
+
+.PHONY : actualLibrary/preinstall
+
+#=============================================================================
+# Target rules for target actualLibrary/CMakeFiles/actualLibrary.dir
+
+# All Build rule for target.
+actualLibrary/CMakeFiles/actualLibrary.dir/all:
+	$(MAKE) -f actualLibrary/CMakeFiles/actualLibrary.dir/build.make actualLibrary/CMakeFiles/actualLibrary.dir/depend
+	$(MAKE) -f actualLibrary/CMakeFiles/actualLibrary.dir/build.make actualLibrary/CMakeFiles/actualLibrary.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jura611/projects/newLibrary/build/CMakeFiles --progress-num=1,2 "Built target actualLibrary"
+.PHONY : actualLibrary/CMakeFiles/actualLibrary.dir/all
+
+# Include target in all.
+all: actualLibrary/CMakeFiles/actualLibrary.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+actualLibrary/CMakeFiles/actualLibrary.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/newLibrary/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 actualLibrary/CMakeFiles/actualLibrary.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jura611/projects/newLibrary/build/CMakeFiles 0
+.PHONY : actualLibrary/CMakeFiles/actualLibrary.dir/rule
+
+# Convenience name for target.
+actualLibrary: actualLibrary/CMakeFiles/actualLibrary.dir/rule
+
+.PHONY : actualLibrary
+
+# clean rule for target.
+actualLibrary/CMakeFiles/actualLibrary.dir/clean:
+	$(MAKE) -f actualLibrary/CMakeFiles/actualLibrary.dir/build.make actualLibrary/CMakeFiles/actualLibrary.dir/clean
+.PHONY : actualLibrary/CMakeFiles/actualLibrary.dir/clean
+
+# clean rule for target.
+clean: actualLibrary/CMakeFiles/actualLibrary.dir/clean
 
 .PHONY : clean
 

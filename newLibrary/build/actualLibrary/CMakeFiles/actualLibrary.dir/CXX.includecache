@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jura611/projects/newLibrary/actualLibrary/actuallibrary.cpp
+actuallibrary.h
+/home/jura611/projects/newLibrary/actualLibrary/actuallibrary.h
+
+/home/jura611/projects/newLibrary/actualLibrary/actuallibrary.h
+dlldefines.h
+/home/jura611/projects/newLibrary/actualLibrary/dlldefines.h
+
+/home/jura611/projects/newLibrary/actualLibrary/dlldefines.h
+
