@@ -1,0 +1,43 @@
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: C:/Users/ivanj/Documents/GitHub/Platformski-Nezavisno-programiranje/newLibrary/buildVisual2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3244c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 30/08/2016 18:48:47.
+Project "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\cmTC_3244c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3244c.dir\Debug\".
+  Creating directory "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3244c.dir\Debug\cmTC_3244c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3244c.dir\Debug\cmTC_3244c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_3244c.dir\Debug\\" /Fd"cmTC_3244c.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_3244c.dir\Debug\\" /Fd"cmTC_3244c.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__' : undeclared identifier [C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\cmTC_3244c.vcxproj]
+C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\src.cxx(1): error C2448: '__attribute__' : function-style initializer appears to be a function definition [C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\cmTC_3244c.vcxproj]
+Done Building Project "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\cmTC_3244c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\cmTC_3244c.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__' : undeclared identifier [C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\cmTC_3244c.vcxproj]
+  C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\src.cxx(1): error C2448: '__attribute__' : function-style initializer appears to be a function definition [C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\CMakeFiles\CMakeTmp\cmTC_3244c.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.57
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

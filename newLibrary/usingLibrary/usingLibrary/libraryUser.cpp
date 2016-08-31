@@ -4,17 +4,26 @@
 #include <stdio.h>
 #include <iostream>
 #include <tchar.h>
+#include "dlldefines.h"
+#include "actuallibrary_export.h"
+#include "actuallibrary.h"
+
 
 using namespace std;
+
 //typedef double(WINAPI *Add)(double, double);
 
-typedef double(WINAPI *Add)(double, double);
-typedef int(WINAPI *RandomFunction)(void);
+//typedef double(WINAPI *Add)(double, double);
+//typedef int(WINAPI *RandomFunction)(void);
 
 // int actualLibrary::Functions::RandomFunction(void)
+
+
 int main() {
 	
-	HMODULE dllHandle = NULL;
+	cout << actualLibrary::Functions::Add(2, 3);
+	
+	/*HMODULE dllHandle = NULL;
 	RandomFunction addPtr = NULL;
 	dllHandle = LoadLibrary(L"actualLibrary.dll");
 	if (NULL != dllHandle) {
@@ -28,7 +37,7 @@ int main() {
 		}
 	} else {
 		cout << "Can't load .dll file";
-	}
+	}*/
 
 	
 	return 0;

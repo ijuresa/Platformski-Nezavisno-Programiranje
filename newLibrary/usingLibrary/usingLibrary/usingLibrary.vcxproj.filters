@@ -32,4 +32,9 @@
       <Filter>lib</Filter>
     </Library>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dlldefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
