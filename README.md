@@ -5,14 +5,15 @@
 - [x] KDevelop build
 - [x] Visual Studio Build
 - [ ] XCode build
-- [ ] CMake fix
+- [x] CMake fix
 - [ ] User Test case
-- [ ] Makefile
+- [x] Makefile
 - [x] Google Test 
 - [x] Google Mock
 - [ ] Automatic test running
 - [ ] ABI compatibility
-- [ ] ...
+- [x] Windows test
+- [x] Linux test
 
 
 
