@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/libtest.dir/main.cpp.o  -o libtest -rdynamic ../libDirectory/libactualLibrary.a 

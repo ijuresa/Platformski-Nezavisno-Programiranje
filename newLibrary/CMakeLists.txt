@@ -3,5 +3,4 @@ project(newlibrary)
 add_subdirectory(actualLibrary)
 
 add_executable(newlibrary main.cpp)
-
 install(TARGETS newlibrary RUNTIME DESTINATION bin)

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/home/jura611/projects/libTest/main.cpp
+iostream
+-
+../newLibrary/actualLibrary/actuallibrary.h
+/home/jura611/projects/newLibrary/actualLibrary/actuallibrary.h
+
 /home/jura611/projects/newLibrary/actualLibrary/actuallibrary.h
 dlldefines.h
 /home/jura611/projects/newLibrary/actualLibrary/dlldefines.h
 
 /home/jura611/projects/newLibrary/actualLibrary/dlldefines.h
-
-/home/jura611/projects/newLibrary/main.cpp
-iostream
--
-actualLibrary/actuallibrary.h
-/home/jura611/projects/newLibrary/actualLibrary/actuallibrary.h
 

@@ -1,6 +1,10 @@
+
+
 #include <iostream>
+#include "actualLibrary/actuallibrary.h"
 
 int main(int argc, char **argv) {
-    std::cout << "Hello, world!" << std::endl;
+    
+    std::cout << actualLibrary::Functions::Add(2, 3);
     return 0;
 }
