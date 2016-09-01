@@ -1,0 +1,27 @@
+﻿Build started 30/08/2016 21:12:06.
+     1>Project "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\actualLibrary.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D actualLibrary_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"actualLibrary.dir\Debug\\" /Fd"actualLibrary.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\actuallibrary.cpp"
+         actuallibrary.cpp
+       PreLinkEvent:
+         setlocal
+         cd C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -E __create_def C:/Users/ivanj/Documents/GitHub/Platformski-Nezavisno-programiranje/newLibrary/buildVisual2/actualLibrary.dir/Debug//exportall.def C:/Users/ivanj/Documents/GitHub/Platformski-Nezavisno-programiranje/newLibrary/buildVisual2/actualLibrary.dir/Debug//objects.txt
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\Debug\actualLibrary.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /DEF:"actualLibrary.dir\Debug\exportall.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ivanj/Documents/GitHub/Platformski-Nezavisno-programiranje/newLibrary/buildVisual2/Debug/actualLibrary.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ivanj/Documents/GitHub/Platformski-Nezavisno-programiranje/newLibrary/buildVisual2/Debug/actualLibrary.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /DLL actualLibrary.dir\Debug\actuallibrary.obj
+            Creating library C:/Users/ivanj/Documents/GitHub/Platformski-Nezavisno-programiranje/newLibrary/buildVisual2/Debug/actualLibrary.lib and object C:/Users/ivanj/Documents/GitHub/Platformski-Nezavisno-programiranje/newLibrary/buildVisual2/Debug/actualLibrary.exp
+         actualLibrary.vcxproj -> C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\Debug\actualLibrary.dll
+     1>Done Building Project "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\buildVisual2\actualLibrary.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12

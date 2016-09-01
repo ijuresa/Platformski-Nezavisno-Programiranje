@@ -1,0 +1,12 @@
+﻿Build started 31/08/2016 18:30:08.
+     1>Project "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\usingLibrary\usingLibrary\usingLibrary.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\actualLibrary" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt libraryUser.cpp
+         libraryUser.cpp
+     1>c:\users\ivanj\documents\github\platformski-nezavisno-programiranje\newlibrary\usinglibrary\usinglibrary\libraryuser.cpp(24): error C2653: 'actualLibrary' : is not a class or namespace name
+     1>c:\users\ivanj\documents\github\platformski-nezavisno-programiranje\newlibrary\usinglibrary\usinglibrary\libraryuser.cpp(24): error C3861: 'Add': identifier not found
+     1>Done Building Project "C:\Users\ivanj\Documents\GitHub\Platformski-Nezavisno-programiranje\newLibrary\usingLibrary\usingLibrary\usingLibrary.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.68

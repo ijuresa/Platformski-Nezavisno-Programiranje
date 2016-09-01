@@ -1,0 +1,41 @@
+
+#ifndef ACTUALLIBRARY_EXPORT_H
+#define ACTUALLIBRARY_EXPORT_H
+
+#ifdef ACTUALLIBRARY_STATIC_DEFINE
+#  define ACTUALLIBRARY_EXPORT
+#  define ACTUALLIBRARY_NO_EXPORT
+#else
+#  ifndef ACTUALLIBRARY_EXPORT
+#    ifdef actualLibrary_EXPORTS
+        /* We are building this library */
+#      define ACTUALLIBRARY_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define ACTUALLIBRARY_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef ACTUALLIBRARY_NO_EXPORT
+#    define ACTUALLIBRARY_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef ACTUALLIBRARY_DEPRECATED
+#  define ACTUALLIBRARY_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef ACTUALLIBRARY_DEPRECATED_EXPORT
+#  define ACTUALLIBRARY_DEPRECATED_EXPORT ACTUALLIBRARY_EXPORT ACTUALLIBRARY_DEPRECATED
+#endif
+
+#ifndef ACTUALLIBRARY_DEPRECATED_NO_EXPORT
+#  define ACTUALLIBRARY_DEPRECATED_NO_EXPORT ACTUALLIBRARY_NO_EXPORT ACTUALLIBRARY_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define ACTUALLIBRARY_NO_DEPRECATED
+#endif
+
+#endif
