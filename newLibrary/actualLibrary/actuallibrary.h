@@ -21,13 +21,10 @@
 #define ACTUALLIBRARY_H
 #include "dlldefines.h"
 
-
 namespace actualLibrary {
   class Functions {
   public:
     static ACTLIB_EXPORT double Add(double a, double b);
-	static ACTLIB_EXPORT int CountSomething(void);
-	static ACTLIB_EXPORT int RandomFunction(void);
   };
 }
 #endif // ACTUALLIBRARY_H

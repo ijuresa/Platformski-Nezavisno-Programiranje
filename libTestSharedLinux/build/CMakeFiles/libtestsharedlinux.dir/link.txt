@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/libtestsharedlinux.dir/main.cpp.o  -o libtestsharedlinux  -L/home/jura611/projects/libTestSharedLinux/build/libDirectory -rdynamic ../libDirectory/libactualLibrary.so -Wl,-rpath,/home/jura611/projects/libTestSharedLinux/build/libDirectory:/home/jura611/projects/libTestSharedLinux/libDirectory: 

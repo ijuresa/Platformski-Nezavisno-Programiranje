@@ -1,0 +1,4 @@
+[Project]
+Name=libTestSharedLinux
+Manager=KDevCMakeManager
+VersionControl=

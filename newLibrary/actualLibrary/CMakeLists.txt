@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.4)
+
 
 OPTION (BUILD_SHARED_LIBS "Build Shared libraries" ON)
 
@@ -9,11 +9,6 @@ ENDIF (BUILD_SHARED_LIBS)
 
 ADD_LIBRARY (actualLibrary ${LIB_TYPE} actuallibrary.cpp)
 
-include(GenerateExportHeader)
-generate_export_header(actualLibrary)
-
-set_property(TARGET actualLibrary PROPERTY CXX_STANDARD 11)
-
 #Replace with project definition, if different than CMake
 #It's usually when library is imported in existing project
-#SET_TARGET_PROPERTIES (actualLibrary PROPERTIES DEFINE_SYMBOL "COMPILING_DLL")
+SET_TARGET_PROPERTIES (actualLibrary PROPERTIES DEFINE_SYMBOL "COMPILING_DLL")

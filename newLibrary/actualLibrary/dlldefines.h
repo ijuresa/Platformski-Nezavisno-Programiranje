@@ -20,8 +20,6 @@
 #ifndef DLLDEFINES_H
 #define DLLDEFINES_H
 
-#define actualLibrary_EXPORTS
-
 #if defined (_WIN32)
   #if defined(actualLibrary_EXPORTS)
     #define ACTLIB_EXPORT __declspec(dllexport)
